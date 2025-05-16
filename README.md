@@ -42,5 +42,6 @@ face-recognition-attendance-system/
 └── Attendance/             - Attendance records (auto-generated)
 
 ## 🖼️ System Preview
-<div align="center"> <img src="https://i.imgur.com/JK1lTfD.png" width="45%" alt="Registration"> <img src="https://i.imgur.com/8W7QzZL.png" width="45%" alt="Attendance"> </div>
+<div align="center"> <img src="![image](https://github.com/user-attachments/assets/c982d34b-caed-4d0a-b900-078232ba8d8a)
+> <img src="![image](https://github.com/user-attachments/assets/45b445de-4d28-4fdf-a277-9e717899e38a)"> </div>
 
