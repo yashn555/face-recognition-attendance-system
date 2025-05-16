@@ -1,0 +1,6 @@
+opencv-python
+pillow
+pandas
+numpy
+matplotlib
+tk
