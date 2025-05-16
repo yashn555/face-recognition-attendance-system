@@ -41,7 +41,13 @@ face-recognition-attendance-system/
 ├── TrainingImage/          - Face samples (auto-generated)
 └── Attendance/             - Attendance records (auto-generated)
 
+
+
+
+
 ## 🖼️ System Preview
+![Screenshot 2025-05-16 130153](https://github.com/user-attachments/assets/d8f258c8-4345-4807-8d86-982d0f36267b)
+
 
 ![image](https://github.com/user-attachments/assets/911535cd-338b-42c1-94db-9f525d663e78)
 
