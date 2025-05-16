@@ -31,6 +31,7 @@ cd face-recognition-attendance-system
 pip install -r requirements.txt
 
 ## 🧩 Project Structure
+
 face-recognition-attendance-system/
 ├── main.py                         # Main GUI application
 ├── database_handler.py             # Handles database operations
