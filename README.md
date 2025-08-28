@@ -33,14 +33,14 @@ pip install -r requirements.txt
 ## 🧩 Project Structure
 
 face-recognition-attendance-system/
-├── main.py                         # Main GUI application
-├── database_handler.py             # Handles database operations
-├── haarcascade_frontalface_default.xml  # Pretrained face detection model
-├── requirements.txt                # Python dependencies list
-├── README.md                       # Project documentation
-├── StudentDetails/                 # Stores registered student details
-├── TrainingImage/                  # Contains face images for training
-└── Attendance/                     # Stores attendance records (CSV files)
+├── main.py                        
+├── database_handler.py           
+├── haarcascade_frontalface_default.xml  
+├── requirements.txt               
+├── README.md                      
+├── StudentDetails/                 
+├── TrainingImage/                 
+└── Attendance/                     
 
 
 
