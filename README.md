@@ -70,6 +70,15 @@ Angles & poses	Trained with frontal faces only
 Expression changes	Multiple training images per student
 
 ---
+💾 Data Management
+Feature	Description
+Auto-Backup	One-click backup with timestamps
+Full Restore	Complete system recovery
+Selective Deletion	Remove individual students
+System Reset	Factory reset (with password)
+Export/Import	Data portability
+---
+
 
 ## 🌟 Features
 - 📷 Face detection using Haar Cascade classifier
@@ -96,18 +105,31 @@ pip install -r requirements.txt
 
 ## 🧩 Project Structure
 
-face-recognition-attendance-system/
-├── main.py                        
-├── database_handler.py           
-├── haarcascade_frontalface_default.xml  
-├── requirements.txt               
-├── README.md                      
-├── StudentDetails/                 
-├── TrainingImage/                 
-└── Attendance/                     
-
-
-
+Face-Recognition-Attendance-System/
+│
+├── 📄 attendance_system.py          # Main application (1500+ lines)
+├── 📄 database_handler.py           # Database operations (200+ lines)
+├── 📄 haarcascade_frontalface_default.xml  # Face detection AI model
+├── 📄 requirements.txt              # Python dependencies
+├── 📄 LICENSE                       # MIT License
+├── 📄 README.md                     # This file
+│
+├── 📁 StudentDetails/
+│   └── 📄 StudentDetails.csv        # Student database
+│
+├── 📁 TrainingImage/
+│   └── 🖼️ [Name].[ID].[No].jpg     # Training images (100 per student)
+│
+├── 📁 TrainingImageLabel/
+│   ├── 📄 Trainner.yml              # Trained LBPH AI model
+│   └── 📄 psd.txt                   # Encrypted password
+│
+├── 📁 Attendance/
+│   └── 📁 [Subject]/
+│       └── 📄 Attendance_[Date].csv  # Daily attendance records
+│
+├── 📁 Backup/                       # System backups
+└── 📁 Database/                     # SQLite database (optional)                    
 
 
 
@@ -117,4 +139,6 @@ face-recognition-attendance-system/
 
 ![image](https://github.com/user-attachments/assets/911535cd-338b-42c1-94db-9f525d663e78)
 
+## System Architecture 
+<img width="4325" height="2290" alt="deepseek_mermaid_20260616_ceb888" src="https://github.com/user-attachments/assets/d2ee8433-f18a-44e6-83c6-999a4b350c54" />
 
